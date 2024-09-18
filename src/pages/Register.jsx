@@ -1,7 +1,6 @@
 import { useState, useContext } from "react";
 import { AuthContext } from "../context/AuthContext";
-import Login from "./Login"; // Asegúrate de que la ruta sea correcta
-
+import Login from "./Login"; 
 function Register() {
   const { registerMutation, errorMessage } = useContext(AuthContext);
   const [showLogin, setShowLogin] = useState(false);

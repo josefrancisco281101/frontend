@@ -1,6 +1,6 @@
 import { useState, useContext } from 'react';
 import { AuthContext } from '../context/AuthContext';
-import Register from './Register'; // Asegúrate de que la ruta sea correcta
+import Register from './Register'; 
 
 function Login() {
   const { loginMutation, errorMessage } = useContext(AuthContext); 
