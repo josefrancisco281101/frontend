@@ -15,15 +15,14 @@ export const getMyInformation = async token => {
   return res.data;
 };
 
-export const register = async ({ fName, lName, username, email, password, mName, image }) => {
+export const register = async ({ fName, lName, username, email, password }) => {
   const res = await axios.post('http://localhost:3000/api/auth/register', {
     fName,
     lName,
     username,
     email,
     password,
-    mName,
-    image,
+   
   });
   return res.data;
 };
