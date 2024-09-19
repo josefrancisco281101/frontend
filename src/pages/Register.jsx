@@ -10,6 +10,7 @@ function Register() {
     e.preventDefault();
     const data = {
         fName: e.target.fName.value, 
+        lName: e.target.lName.value,
       email: e.target.email.value,
       password: e.target.password.value,
       confirmPassword: e.target.confirmPassword.value,

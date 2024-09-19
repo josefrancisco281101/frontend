@@ -55,7 +55,7 @@ function Dashboard() {
           <span>{user?.f_name} {user?.m_name}</span>
         </button>
         {isMenuOpen && (
-            <ul className="absolute right-0 mt-2 w-48 bg-white shadow-lg rounded-lg py-2 p-2">
+            <ul className="mt-2 w-48 bg-white shadow-lg rounded-lg py-2 p-2">
               <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer flex items-center"><img className='h-[30px] mt-[4px]' src="profile.png" alt="" /> My Profile</li>
               <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer flex items-center"><img className='h-[30px] mt-[4px]' src="group.png" alt="" /> Group Chat</li>
               <hr />
